@@ -96,7 +96,7 @@ function createHeart() {
   heart.style.left = Math.random() * 100 + "%";
   heart.style.animationDuration = Math.random() * 4 + 3 + "s";
   heart.style.animationDelay = Math.random() * 2 + "s";
-  heart.innerHTML = ["❤️", "💖", "💗", "💘", "💕", "💞"][Math.floor(Math.random() * 6)];
+  heart.innerHTML = ["🤍", "💖", "💗", "🩷", "💕", "💞"][Math.floor(Math.random() * 6)];
   heartContainer.appendChild(heart);
 
   setTimeout(() => {
